@@ -33,6 +33,4 @@ function treehelp(dirname,indent){
     }
 }
 
-module.exports = {
-    treekey : tree
-}
+module.exports.tree = tree;

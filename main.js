@@ -1,7 +1,7 @@
 let fs = require('fs');
 let path = require('path');
+let tree = require('./commands/tree');
 let help = require('./commands/help');
-let tree = require('./commands/treehhh');
 let input = process.argv.slice(2);
 
 switch(input[0])
@@ -10,7 +10,7 @@ switch(input[0])
         help.helpkey();
         break;
     case("tree"):
-        tree.treekey(input[1]);
+        tree.tree(input[1]);
         break;
     case("organiser"):
         break;

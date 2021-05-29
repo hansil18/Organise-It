@@ -16,4 +16,6 @@ switch(input[0])
     case("organiser"):
         org.organisekey(input[1]);
         break;
+    default:
+        console.log("please enter valid command ✔😆");
 }
